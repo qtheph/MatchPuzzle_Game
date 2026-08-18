@@ -1,0 +1,3383 @@
+fileFormatVersion: 2
+guid: 4ed8acda106b25742adbb0b2979f4e95
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Candy-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 304
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e61347ef3c682240ae9a07d6bd1f909
+      internalID: 934602802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 626
+        width: 211
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0e8075fdf646844b7714e3bba6b4ef
+      internalID: 1387852723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 652
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54fb31ef84e904b9c1e82e57f253da
+      internalID: 2076599727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 652
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce58a847e644da4c80ea0a88aed5dbe
+      internalID: -247199398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 653
+        width: 141
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ef08f897701314d8b52008a3edf8ac
+      internalID: 349407701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 658
+        width: 133
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2bda1387581df4b87ccba425d006da
+      internalID: 511142944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 656
+        width: 143
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad983ab812489f4da89aa927c45c0c6
+      internalID: 618420585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 652
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c5d3335e4cbb04680bff73e89f55f3
+      internalID: 1021527167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 692
+        width: 115
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb4fe1f95e0fb24c847e176c23244b1
+      internalID: 1578881215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 418
+        width: 149
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3deceb243132f459338e0d440d4c5a
+      internalID: -972874632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 440
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8f800f41a78a245b1c9931e984fb1e
+      internalID: 239900077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 442
+        width: 134
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19c6c674e4a13c4c81a8d2f1736af73
+      internalID: -1245841029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 447
+        width: 124
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d825441cd1a7642b04236837a26c5d
+      internalID: -380558491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 448
+        width: 145
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76373c9142a5e9e4294586909392fd93
+      internalID: -1178237260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 443
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8258a3c1040cdff4cadbe1b847e55e33
+      internalID: -1629075648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 444
+        width: 95
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd37ab9901752b24aa963f296f6d74ea
+      internalID: -1675352936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 457
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4725b6bc1420c4d9de84d5b722c991
+      internalID: -1753706456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 458
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114748fb7c40bc04f8e02b60c9746555
+      internalID: 1863197093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 507
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b537d0946b3a6ba4fb88799393f0b14b
+      internalID: -55503973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 509
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba982d4b3bd93a04da7f6768e780a244
+      internalID: 769896371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 506
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34e7de90fe0fe74abc6814bc7851bb0
+      internalID: -1851187096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 439
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7b1dc48c74db0419a328b6b5ddb592
+      internalID: 1845892920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 443
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe856c44ca6e224e929d90ff4b64e96
+      internalID: -71410341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 449
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e914483ea7723e48a1bfcdfc6ad5c2d
+      internalID: 286392969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 455
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbddcf7980d36943b3652217954f483
+      internalID: 1954335184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 320
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa55c4668f3ae94da5ff08b811b1c4b
+      internalID: -298464327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 307
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a3d02ab2a539d4a9a1c6d267bf599a
+      internalID: 1895700736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 320
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876bdb8e9491af8428a97cc18c8121af
+      internalID: -1328056101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 285
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5772dfbe249062947b5545a3957b84df
+      internalID: 679563897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 312
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156f350d334696c4ea9da812accefe8b
+      internalID: -1480477742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 305
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706fd3fde13042742acfc25b6555c25b
+      internalID: 1635718929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 304
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87555f39290aa5f498e4119f1eac6ed0
+      internalID: 526412910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 314
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15788a4e915f2f4f8ad112a00cf0f4e
+      internalID: 542984026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 299
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da79e8aa5aff06849bd2ff4f66e5e61b
+      internalID: 909286759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 314
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81af9c6a3e00fb74a9bfed7a93201084
+      internalID: -2114516232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 338
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7896ad58c38c2fe47ae69fc012db3dcf
+      internalID: -309070003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 315
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ee5386c181ea54fb254e01c22f032e
+      internalID: -1564420590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 326
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9483ea9cb7e5c4ab78bbbead226924
+      internalID: -1064655126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 333
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989998b610334c1458f37183ae479128
+      internalID: 302189703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 322
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e109fe7aff3514bb0cd0b573a3412e
+      internalID: -103277596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 239
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e04a831c42d2704aaa2d7b52a8c9313
+      internalID: -2037739419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 274
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941132b31ce666f47b8a88ec680d6f88
+      internalID: 1829503409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 275
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bf20203e4f07c43ba595f0287bb755
+      internalID: 1224072525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 245
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38652c88f2c7d8d409fdcc67c1c71e57
+      internalID: 1512433284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 253
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d873395ba2c0c4daa9a7734eb15c0f
+      internalID: -1733704467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 298
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9992dc39934329d4cb2e6a54fb534f4d
+      internalID: 1521210767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 265
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d8c1e0634f5764a84c0925f1d0f11a
+      internalID: 213362488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 265
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd623fb8aa7351459357a9ed11d4dec
+      internalID: 115014472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 296
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318b4dad3c4d19b49b675c1328099805
+      internalID: 1623092731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 293
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c79b2b8259a284187accdfb4244ce7
+      internalID: 1233237885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 275
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37de3291f9f68e741b821f7f1025af2f
+      internalID: 788612420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 233
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33795f3345be83479aee7cc2f80f0f7
+      internalID: -1730164976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 255
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b21dbfd33f67a046bdacf3fe502c211
+      internalID: 449964635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 248
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84402893a5ef5334a8062206e733078a
+      internalID: -1078752578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 245
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86306c5e485ff44c8e6b29a41fe9ca9
+      internalID: -335462396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 258
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7919a08d8245d4080217ceb354c580
+      internalID: -599437439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 250
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89018f2b131a6c24abee5904064c0690
+      internalID: 1560587619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 258
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a444dfe0da24e441b28e287e1a8905f
+      internalID: 839007086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 273
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efa9458b75f1ef48a92f2af6153992b
+      internalID: 1779060648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 255
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76c65228ee27574f8010d211c68e6a5
+      internalID: 909702948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 232
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf96fb790cfa874b9319c657a503cd4
+      internalID: -1314595819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 242
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390698b28ba84054498890f6d1739892
+      internalID: -904156746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 137
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd45edee5d6418342b98cb8e65a5e066
+      internalID: -464024800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 141
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7aa8d9368951b549800826075d8d5e7
+      internalID: -1826248446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_64
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 140
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231bd3812d7f79f438adae4d2a29e305
+      internalID: -2035460451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_65
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 153
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6ef8cb8ce7c3c4c849dff3e3d01612
+      internalID: 717980633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_66
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 138
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912b46320812281468544214519710aa
+      internalID: 1183974222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_67
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 146
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b79611128b23743be1f70515ef298e
+      internalID: 968855940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_68
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 147
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca72ac1022f2a5b479b890d6c1143f79
+      internalID: 1560219073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_69
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a280fa5f086a141a52da7be7a1116c
+      internalID: 1425717530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_70
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 140
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7045662f29f7c44b51a821d0f149a3
+      internalID: -1165524121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_71
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 151
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6150a8a70876b94596287b7ced12e79
+      internalID: -1729898936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_72
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 151
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a79b30792f2f498a87d69bfc4b89d
+      internalID: 511416760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_73
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 154
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9739373f2fcef46a812ae740df1272
+      internalID: 512963994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_74
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 143
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418e0ad439e170a479f918cee8e7f833
+      internalID: -436925182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_75
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 137
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b11d318584e4404abd49ea6d7d07a75
+      internalID: 545915899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_76
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 134
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77b27fb9df63d47ad082e946e9a29c
+      internalID: -1684488468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_77
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 144
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841134fb2dd6cbf4db062114b8778c66
+      internalID: 1448421448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_78
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 145
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a617cb9ace8690498c147fa05695f03
+      internalID: -724380747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_79
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 150
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5403c5a973e7906479bdc722954d48e9
+      internalID: 238106316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_80
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 138
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d87add9d3b32949ba2dddf22fc87f8
+      internalID: -1535810609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_81
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 152
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9ab74c7a3978843966a08e4fd07f32
+      internalID: 641390423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_82
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 143
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6f23ce0e7e1f44586b1b24b8dd02c5
+      internalID: 852093528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_83
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 119
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccce662140bc16418f4e29b20d8791c
+      internalID: 851666679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_84
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 134
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56768f6e308262469a6ca38b0f3c954
+      internalID: 702879165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_85
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 124
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e395f4a5d1c83cc499e1b7e6ed9bfca7
+      internalID: -55803024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_86
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 137
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2510d4639b58e46a81aa0da59594ba
+      internalID: 911480199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_87
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 125
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e48f76f613cb0478977050daab0311
+      internalID: -625645813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_88
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 118
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7653b652f783e1249a10454710b54cc8
+      internalID: -303737544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_89
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 119
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b2bd9344c6a17438bc92dd46c091fd
+      internalID: -247522318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_90
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 136
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee1934ff8424cb4997eff1c9d0593e7
+      internalID: 1518631480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_91
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 125
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f39147ed248dfb4d8191364ef66f6af
+      internalID: 355393548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_92
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 136
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667e32124e5dd264d82ffddcfe2104bf
+      internalID: 609857260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_93
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 105
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3918bd681af10a84fa6df1e83f02879c
+      internalID: -258966706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_94
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 106
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaa1cfef330f0f4f958acd37245511d
+      internalID: -1199679849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_95
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 109
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7417d67bb646f3649a3bd937614a8ac2
+      internalID: -935761453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_96
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 112
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ad3c106b3436141953ce74fef25e6a
+      internalID: 614764739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_97
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 119
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf7b10f19b36644fb41d664ac764b61
+      internalID: -2076771826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_98
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 114
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683f69b5be55d78429e4eb0c8bd58bfb
+      internalID: 411853679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_99
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 114
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ca4e60713193f4aa1f8ad2ab71ca44
+      internalID: 1912139704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_100
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 110
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b93dd0eae6055448c4049a4481cbaa
+      internalID: -273131357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_101
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 116
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9fc7c5f68f0274f949ed134c16f71b
+      internalID: -1097064283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_102
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 113
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140e198defb52474e888c2bbded3fbc1
+      internalID: 1046901416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_103
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 124
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041cb8c4ffaae2542b7d82acf90eec91
+      internalID: 243331474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_104
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 107
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b9592c48499e943b99e9d03e278c8d
+      internalID: 2106528249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_105
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 116
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064ca8986b722a048b26d849481ac6e0
+      internalID: 15583018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_106
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 102
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436a1112b06c47d4b9df71a1a2a45427
+      internalID: 13686962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_107
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 105
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eadfa19c3746f4b9179610092465b0
+      internalID: -1666123623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_108
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 98
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69eeeae2307ae674285cd538a7de53db
+      internalID: -1232080059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_109
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 99
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566ae479159950844a5cbd9e62e73799
+      internalID: 2036123042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_110
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 98
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6623d7bb2dba44bb0dbbcaaa71a837
+      internalID: 545768841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_111
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 110
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f01282a43507a6448cedc886ffab363
+      internalID: -155489274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_112
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 104
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a144d1f0f7896524e922113e17c183c5
+      internalID: -608912998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_113
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 115
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845b4c05eaf58024db4f22779a6efaba
+      internalID: 1353123454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 92
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696997afcd2ba4b4cb32a65dec750cfc
+      internalID: 1927523936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_115
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 96
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00532ff0eaff2d6418594828ea6d43b6
+      internalID: 1662546501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_116
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 100
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94818bf20ae2dc46b524bdad8900227
+      internalID: 1241542498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_117
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 97
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f43565d7199aaf43a2324baf39c389d
+      internalID: -174778431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_118
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95eb87823ce95784f8cbc557de1628ee
+      internalID: -2009065248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_119
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 72
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e49bb28c7f82241aa2b08cc44fb537
+      internalID: 2045348413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_120
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 83
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfae2cadd0264441b607a86dcf74bed
+      internalID: 2056231446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_121
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 76
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfb912ea899fd7459c8695a29ac9a6c
+      internalID: 34747940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_122
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 92
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e989de5d4cb1a0941baef36186071eee
+      internalID: 1243960711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_123
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 80
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afe5a3b613b7c742b6a28036d402b4b
+      internalID: -1981161186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_124
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 72
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4a846eea0cae241b7660d4a2f6656d
+      internalID: 1893471827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_125
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 73
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6be339d2c05394fb459baac4dff95f
+      internalID: -1338203097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_126
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 82
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf803aad1dc8f24fa0cc9c9e6a9da4e
+      internalID: -353639761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_127
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 86
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4462e260436ec814f858f6b4560dcba2
+      internalID: -1441975706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_128
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 82
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af2fe45594414f46be11ee4fe6f18a7
+      internalID: 862463386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_129
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62b83fff9b4e2e48bbaada0987aa5c8
+      internalID: 2083291616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_130
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 80
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27263aae414ea264da2a1d12a64f9db1
+      internalID: -507995131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_131
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 90
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5063a166073bc4ba44a8a077d2d109
+      internalID: 583313059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_132
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 78
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1895f494859f144db99113800f3712b
+      internalID: 528504571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_133
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 87
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdcf2e2308e42a4aa87751264d5162f
+      internalID: -1610363492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_134
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 79
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99f61c507fdc64459e7b0cadec83e7f
+      internalID: -360055283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_135
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 0
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97f70c6ccda21c4a8a8f7a52a179346
+      internalID: 182231079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_136
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 63
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d526dae93564143897a00275850ef4
+      internalID: -1118022235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_137
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f391bc9b6b549b54393847cb3212f991
+      internalID: 130255113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_138
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 66
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e0a89ae11e7c2469313960ad80b757
+      internalID: -2139171916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_139
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d66fffdc36f89e499963de2af5c3061
+      internalID: -308513893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_140
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 74
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee9a8d6c0e59fb45b71b7c5c5ee15fe
+      internalID: 2079661597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_141
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 71
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6981891c0ba91d4c8d86d2ee3573fcc
+      internalID: -793977513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_142
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 71
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a349eb361cc658b4684a7931a5922f5e
+      internalID: -2113470073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_143
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 69
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef64ff57b3385cb4996a774abcfedfce
+      internalID: -715877781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_144
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 67
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28efa8e833e0fab4db06795a4371e636
+      internalID: 1313352892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_145
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 67
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee543617d645a4db4b6c828b00c7f5
+      internalID: -946515768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_146
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 76
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9f0b7160e733048ad5318509562109
+      internalID: -1900611559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy-Photoroom_147
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 58
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d14c6e2693f1d04a897e44e3db5eb83
+      internalID: -906186713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Candy-Photoroom_0: 934602802
+      Candy-Photoroom_1: 1387852723
+      Candy-Photoroom_10: 239900077
+      Candy-Photoroom_100: -273131357
+      Candy-Photoroom_101: -1097064283
+      Candy-Photoroom_102: 1046901416
+      Candy-Photoroom_103: 243331474
+      Candy-Photoroom_104: 2106528249
+      Candy-Photoroom_105: 15583018
+      Candy-Photoroom_106: 13686962
+      Candy-Photoroom_107: -1666123623
+      Candy-Photoroom_108: -1232080059
+      Candy-Photoroom_109: 2036123042
+      Candy-Photoroom_11: -1245841029
+      Candy-Photoroom_110: 545768841
+      Candy-Photoroom_111: -155489274
+      Candy-Photoroom_112: -608912998
+      Candy-Photoroom_113: 1353123454
+      Candy-Photoroom_114: 1927523936
+      Candy-Photoroom_115: 1662546501
+      Candy-Photoroom_116: 1241542498
+      Candy-Photoroom_117: -174778431
+      Candy-Photoroom_118: -2009065248
+      Candy-Photoroom_119: 2045348413
+      Candy-Photoroom_12: -380558491
+      Candy-Photoroom_120: 2056231446
+      Candy-Photoroom_121: 34747940
+      Candy-Photoroom_122: 1243960711
+      Candy-Photoroom_123: -1981161186
+      Candy-Photoroom_124: 1893471827
+      Candy-Photoroom_125: -1338203097
+      Candy-Photoroom_126: -353639761
+      Candy-Photoroom_127: -1441975706
+      Candy-Photoroom_128: 862463386
+      Candy-Photoroom_129: 2083291616
+      Candy-Photoroom_13: -1178237260
+      Candy-Photoroom_130: -507995131
+      Candy-Photoroom_131: 583313059
+      Candy-Photoroom_132: 528504571
+      Candy-Photoroom_133: -1610363492
+      Candy-Photoroom_134: -360055283
+      Candy-Photoroom_135: 182231079
+      Candy-Photoroom_136: -1118022235
+      Candy-Photoroom_137: 130255113
+      Candy-Photoroom_138: -2139171916
+      Candy-Photoroom_139: -308513893
+      Candy-Photoroom_14: -1629075648
+      Candy-Photoroom_140: 2079661597
+      Candy-Photoroom_141: -793977513
+      Candy-Photoroom_142: -2113470073
+      Candy-Photoroom_143: -715877781
+      Candy-Photoroom_144: 1313352892
+      Candy-Photoroom_145: -946515768
+      Candy-Photoroom_146: -1900611559
+      Candy-Photoroom_147: -906186713
+      Candy-Photoroom_15: -1675352936
+      Candy-Photoroom_16: -1753706456
+      Candy-Photoroom_17: 1863197093
+      Candy-Photoroom_18: -55503973
+      Candy-Photoroom_19: 769896371
+      Candy-Photoroom_2: 2076599727
+      Candy-Photoroom_20: -1851187096
+      Candy-Photoroom_21: 1845892920
+      Candy-Photoroom_22: -71410341
+      Candy-Photoroom_23: 286392969
+      Candy-Photoroom_24: 1954335184
+      Candy-Photoroom_25: -298464327
+      Candy-Photoroom_26: 1895700736
+      Candy-Photoroom_27: -1328056101
+      Candy-Photoroom_28: 679563897
+      Candy-Photoroom_29: -1480477742
+      Candy-Photoroom_3: -247199398
+      Candy-Photoroom_30: 1635718929
+      Candy-Photoroom_31: 526412910
+      Candy-Photoroom_32: 542984026
+      Candy-Photoroom_33: 909286759
+      Candy-Photoroom_34: -2114516232
+      Candy-Photoroom_35: -309070003
+      Candy-Photoroom_36: -1564420590
+      Candy-Photoroom_37: -1064655126
+      Candy-Photoroom_38: 302189703
+      Candy-Photoroom_39: -103277596
+      Candy-Photoroom_4: 349407701
+      Candy-Photoroom_40: -2037739419
+      Candy-Photoroom_41: 1829503409
+      Candy-Photoroom_42: 1224072525
+      Candy-Photoroom_43: 1512433284
+      Candy-Photoroom_44: -1733704467
+      Candy-Photoroom_45: 1521210767
+      Candy-Photoroom_46: 213362488
+      Candy-Photoroom_47: 115014472
+      Candy-Photoroom_48: 1623092731
+      Candy-Photoroom_49: 1233237885
+      Candy-Photoroom_5: 511142944
+      Candy-Photoroom_50: 788612420
+      Candy-Photoroom_51: -1730164976
+      Candy-Photoroom_52: 449964635
+      Candy-Photoroom_53: -1078752578
+      Candy-Photoroom_54: -335462396
+      Candy-Photoroom_55: -599437439
+      Candy-Photoroom_56: 1560587619
+      Candy-Photoroom_57: 839007086
+      Candy-Photoroom_58: 1779060648
+      Candy-Photoroom_59: 909702948
+      Candy-Photoroom_6: 618420585
+      Candy-Photoroom_60: -1314595819
+      Candy-Photoroom_61: -904156746
+      Candy-Photoroom_62: -464024800
+      Candy-Photoroom_63: -1826248446
+      Candy-Photoroom_64: -2035460451
+      Candy-Photoroom_65: 717980633
+      Candy-Photoroom_66: 1183974222
+      Candy-Photoroom_67: 968855940
+      Candy-Photoroom_68: 1560219073
+      Candy-Photoroom_69: 1425717530
+      Candy-Photoroom_7: 1021527167
+      Candy-Photoroom_70: -1165524121
+      Candy-Photoroom_71: -1729898936
+      Candy-Photoroom_72: 511416760
+      Candy-Photoroom_73: 512963994
+      Candy-Photoroom_74: -436925182
+      Candy-Photoroom_75: 545915899
+      Candy-Photoroom_76: -1684488468
+      Candy-Photoroom_77: 1448421448
+      Candy-Photoroom_78: -724380747
+      Candy-Photoroom_79: 238106316
+      Candy-Photoroom_8: 1578881215
+      Candy-Photoroom_80: -1535810609
+      Candy-Photoroom_81: 641390423
+      Candy-Photoroom_82: 852093528
+      Candy-Photoroom_83: 851666679
+      Candy-Photoroom_84: 702879165
+      Candy-Photoroom_85: -55803024
+      Candy-Photoroom_86: 911480199
+      Candy-Photoroom_87: -625645813
+      Candy-Photoroom_88: -303737544
+      Candy-Photoroom_89: -247522318
+      Candy-Photoroom_9: -972874632
+      Candy-Photoroom_90: 1518631480
+      Candy-Photoroom_91: 355393548
+      Candy-Photoroom_92: 609857260
+      Candy-Photoroom_93: -258966706
+      Candy-Photoroom_94: -1199679849
+      Candy-Photoroom_95: -935761453
+      Candy-Photoroom_96: 614764739
+      Candy-Photoroom_97: -2076771826
+      Candy-Photoroom_98: 411853679
+      Candy-Photoroom_99: 1912139704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

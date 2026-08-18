@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 993e5d3d66b86224bbcc5b3d57415de4, type: 3}
+  m_Name: Level_8
+  m_EditorClassIdentifier: 
+  levelType: 1
+  levelIndex: 7
+  row: 8
+  col: 8
+  allowedFoods:
+  - {fileID: 11400000, guid: 319dc96b5a302794580e04df62817c2c, type: 2}
+  - {fileID: 11400000, guid: ecb5876fd40b1d84b9a1baff0709363f, type: 2}
+  - {fileID: 11400000, guid: 2e4a2d990d3febf4fbbe97e36adf28fb, type: 2}
+  - {fileID: 11400000, guid: 4ba55e5b3b11b1d4b914c29701a78e3c, type: 2}
+  - {fileID: 11400000, guid: 21a1555e9b325e54aaa0879910a62579, type: 2}
+  - {fileID: 11400000, guid: 0a8697669b8d93b4eb7971526884e24e, type: 2}
+  targets:
+  - food: {fileID: 11400000, guid: 319dc96b5a302794580e04df62817c2c, type: 2}
+    count: 24
+  - food: {fileID: 11400000, guid: ecb5876fd40b1d84b9a1baff0709363f, type: 2}
+    count: 24
+  cellPrefab: {fileID: 8347078691118462391, guid: 7cc27e33490db9f408d3413881bacadb, type: 3}
+  moveCount: 15
+  coinAmountReward: 250
+  boosterTypeReward: 2
+  boosterAmountReward: 1
+  enviromentType: 2
