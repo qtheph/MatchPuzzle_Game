@@ -8,16 +8,20 @@ using TMPro;
 using UnityEngine.UI;
 public class BoardView : MonoBehaviour
 {
-
     private LevelData levelData;
     private Dictionary<int, FoodData> map;
     private TileFoodView[,] tileFoodViews;
+
     private int[,] boardModel;
     private int row;
     private int col;
-    [SerializeField] private float spacing = 1f;
+    private float spacing;
+    private float bigCellOffset;
+
     [SerializeField] private float moveDuration = 0.15f;
     [SerializeField] private float dropDuration = 0.25f;
+
+    [SerializeField] private Transform bigCellParent;
     [SerializeField] private Transform cellParent;
     [SerializeField] private Transform foodParent;
 
@@ -34,6 +38,8 @@ public class BoardView : MonoBehaviour
     {
         this.levelData = levelData;
         this.boardModel = boardModel;
+        spacing = levelData.spacing;
+        bigCellOffset = levelData.bigCellOffset;
         row = boardModel.GetLength(0);
         col = boardModel.GetLength(1);
         tileFoodViews = new TileFoodView[row, col];
@@ -45,8 +51,10 @@ public class BoardView : MonoBehaviour
             map[food.GetId] = food;
         }
 
+        CleanData();
         FillCellView();
         FillFoodView();
+        SpawBigCellView();
     }
 
     public void AnimateHint(List<Vector2Int> hintPos)
@@ -146,13 +154,21 @@ public class BoardView : MonoBehaviour
             OnComplete?.Invoke();
         });
     }
-    private void FillFoodView()
+
+    private void CleanData()
     {
+        foreach (Transform child in cellParent)
+        {
+            Destroy(child.gameObject);
+        }
         foreach (Transform child in foodParent)
         {
             Destroy(child.gameObject);
         }
+    }
 
+    private void FillFoodView()
+    {
         for (int r = 0; r < row; r++)
         {
             for (int c = 0; c < col; c++)
@@ -171,13 +187,9 @@ public class BoardView : MonoBehaviour
             }
         }
     }
+
     private void FillCellView()
     {
-        foreach (Transform child in cellParent)
-        {
-            Destroy(child.gameObject);
-        }
-
         for (int r = 0; r < row; r++)
         {
             for (int c = 0; c < col; c++)
@@ -187,6 +199,27 @@ public class BoardView : MonoBehaviour
             }
         }
     }
+
+    private void SpawBigCellView()
+    {
+        float minX = tileFoodViews[0, 0].transform.position.x;
+        float maxX = tileFoodViews[0, row - 1].transform.position.x;
+        float minY = tileFoodViews[col - 1, 0].transform.position.y;
+        float maxY = tileFoodViews[0, 0].transform.position.y;
+
+        Debug.Log($"minX:{minX}, maxX:{maxX}");
+        Debug.Log($"minY:{minY}, maxY:{maxY}");
+
+        float centerX = (minX + maxX) / 2;
+        float centerY = (minY + maxY) / 2;
+
+        float cellWidth = (maxX - minX + 1) * spacing;
+        float cellHeight = (maxY - minY + 1) * spacing;
+
+        GameObject bigCell = Instantiate(levelData.bigCell, new Vector3(centerX, centerY, 0), Quaternion.identity, bigCellParent);
+        bigCell.transform.localScale = new Vector3(cellWidth + bigCellOffset, cellHeight + bigCellOffset, 0);
+    }
+
     public void RemoveFoodMatched(List<Vector2Int> matchedList)
     {
         if (matchedList == null || matchedList.Count == 0) return;

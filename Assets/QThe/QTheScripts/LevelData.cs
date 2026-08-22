@@ -24,9 +24,12 @@ public class LevelData : ScriptableObject
     public int levelIndex;
     public int row;
     public int col;
+    public float spacing = 0.57f;
+    public float bigCellOffset = 2f;
     public List<FoodData> allowedFoods;
     public Target[] targets;
     public GameObject cellPrefab;
+    public GameObject bigCell;
     public int moveCount;
     public int coinAmountReward;
     public BoosterType boosterTypeReward;

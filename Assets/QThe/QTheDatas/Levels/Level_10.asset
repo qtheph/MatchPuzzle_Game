@@ -12,25 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 993e5d3d66b86224bbcc5b3d57415de4, type: 3}
   m_Name: Level_10
   m_EditorClassIdentifier: 
-  levelType: 1
+  tutorialType: 0
   levelIndex: 9
   row: 8
   col: 8
+  spacing: 1
+  bigCellOffset: 1
   allowedFoods:
-  - {fileID: 11400000, guid: ca5fdf2e472fddf4f865e6daebcf2958, type: 2}
-  - {fileID: 11400000, guid: 0a8de9b10a540a24983ecbbde6e70b0a, type: 2}
-  - {fileID: 11400000, guid: d2dffc740a94b584092e9b69b429e6ec, type: 2}
-  - {fileID: 11400000, guid: c8c24ffefc32cc44db7338bfe045fda7, type: 2}
-  - {fileID: 11400000, guid: 319dc96b5a302794580e04df62817c2c, type: 2}
-  - {fileID: 11400000, guid: 2e4a2d990d3febf4fbbe97e36adf28fb, type: 2}
+  - {fileID: 11400000, guid: 8525b963cef39c54ab308978926dc053, type: 2}
+  - {fileID: 11400000, guid: b1703147b4aa13046a15461874599418, type: 2}
+  - {fileID: 11400000, guid: 3de00d74a286bfe4095d33ebdf7015c0, type: 2}
+  - {fileID: 11400000, guid: f7d19739704c6f741ab8ae7d8ed33c44, type: 2}
+  - {fileID: 11400000, guid: 9751af7ca15fef041a33c3a5bb0dfec0, type: 2}
+  - {fileID: 11400000, guid: 4257421f6c11d524e8b02bebc447ebd7, type: 2}
   targets:
-  - food: {fileID: 11400000, guid: ca5fdf2e472fddf4f865e6daebcf2958, type: 2}
+  - food: {fileID: 11400000, guid: 8525b963cef39c54ab308978926dc053, type: 2}
     count: 22
-  - food: {fileID: 11400000, guid: 0a8de9b10a540a24983ecbbde6e70b0a, type: 2}
+  - food: {fileID: 11400000, guid: b1703147b4aa13046a15461874599418, type: 2}
     count: 22
-  - food: {fileID: 11400000, guid: d2dffc740a94b584092e9b69b429e6ec, type: 2}
+  - food: {fileID: 11400000, guid: 3de00d74a286bfe4095d33ebdf7015c0, type: 2}
     count: 22
-  cellPrefab: {fileID: 8347078691118462391, guid: 7cc27e33490db9f408d3413881bacadb, type: 3}
+  cellPrefab: {fileID: 8346520552906374300, guid: 1ac4ad0da7d80ff4689d29a416737feb, type: 3}
+  bigCell: {fileID: 8346520552906374300, guid: a6bd2ff2bafdd3c458b0ecf4d64c5486, type: 3}
   moveCount: 18
   coinAmountReward: 500
   boosterTypeReward: 0

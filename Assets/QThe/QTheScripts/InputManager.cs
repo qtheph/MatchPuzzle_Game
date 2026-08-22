@@ -31,7 +31,7 @@ public class InputManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             startPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            //Debug.Log(startPos);
+            Debug.Log(startPos);
             Collider2D hit = Physics2D.OverlapPoint(startPos, foodLayerMask);
             if (hit == null) return;
             if (hit.TryGetComponent(out TileFoodView foodView))

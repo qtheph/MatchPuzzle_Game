@@ -18,6 +18,9 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
     [SerializeField] private GoogleAdmobView googleAdmobView;
     private GoogleAdmobPresenter googleAdmobPresenter;
 
+    [Header("Camera")]
+    [SerializeField] private CameraFitBoardView cameraFitBoardView;
+
     [Header("Loading Screen")]
     [SerializeField] private LoadingStartScreenView loadingScreenView;
     [SerializeField] private LoadingInGameScreenView loadingInGameScreenView;
@@ -123,6 +126,10 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
 
         BoardModel boardModel = new BoardModel(levelData, levelData.row, levelData.col);
         levelIndex = levelData.levelIndex;
+
+        CameraFitBoardModel cameraFitBoardModel = new CameraFitBoardModel(boardModel.GetLevelData.row, boardModel.GetLevelData.col, boardModel.GetLevelData.spacing);
+        CameraFitBoardPresent cameraFitBoardPresent = new CameraFitBoardPresent(cameraFitBoardModel, cameraFitBoardView);
+        cameraFitBoardPresent.HandleOrtho();
 
         if (boardPresent != null)
         {
