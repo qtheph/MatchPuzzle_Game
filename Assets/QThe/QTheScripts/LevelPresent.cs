@@ -56,25 +56,25 @@ public class LevelPresent
         if (!storage.HasKey("FirstGameInit"))
         {
             levelModel.SetPrefLevelState(0, LevelState.Unlocked);
-
             List<ButtonLevel> btnLevelList = levelView.GetButtonLevelList;
-            float targetY = levelView.GetButtonPos(btnLevelList[0].GetComponent<RectTransform>());
+            float targetY = levelView.GetButtonPosY(btnLevelList[0].GetComponent<RectTransform>());
             levelModel.SetPrefScrollBGPosY(targetY);
-
+            SetScrollBackgroundPosition(targetY);
             storage.SetInt("FirstGameInit", 1);
             storage.Save();
         }
+        else
+        {
+            float targetY = levelModel.GetPrefScrollBGsPosY();
+            SetScrollBackgroundPosition(targetY);
+        }
 
         levelView.Init();
-
         SetLevelIndex();
-
         UpdateLevelButtonsState();
-
         levelView.OnPlayBoardTargetShow += ShowPlayBoardTarget;
         levelView.OnPlayBtnClicked += TakeLevelData;
         levelView.OnClickClosePlayTargetBoard += ClosePlayTargetBoard;
-
     }
 
     private void SetScrollBackgroundPosition(float targetY)
@@ -127,7 +127,7 @@ public class LevelPresent
             if (levelModel.GetPrefLevelState(levelIndex + 1) == LevelState.Locked)
             {
                 levelModel.SetPrefLevelState(levelIndex + 1, LevelState.Unlocked);
-                float targetY = levelView.GetButtonPos(btnLevelList[levelIndex + 1].GetComponent<RectTransform>());
+                float targetY = levelView.GetButtonPosY(btnLevelList[levelIndex + 1].GetComponent<RectTransform>());
                 SetScrollBackgroundPosition(targetY);
                 levelModel.SetPrefScrollBGPosY(targetY);
             }

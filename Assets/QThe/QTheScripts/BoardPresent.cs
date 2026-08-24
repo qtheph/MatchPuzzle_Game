@@ -11,8 +11,6 @@ public class BoardPresent
     public event Action OnCompletedLevel;
     public event Action OnNotCompletedLevel;
     public event Action OnCloseInGameSwapTutorial;
-    // public event Action OnCloseInGameBoosterTutorial;
-
     private readonly IGameState gameState;
     private readonly ICoroutineRunner coroutineRunner;
     private readonly BoardModel boardModel;
@@ -149,8 +147,7 @@ public class BoardPresent
         }
         boardModel.RemoveIdMatched(affectedCells);
         boardView.RemoveFoodMatched(normalMatchedList);
-        // boardModel.RemoveIdMatched(affectedCells);
-        // boardView.RemoveFoodMatched(affectedCells);
+
     }
     public void RunBoosterRoutine()
     {
@@ -162,8 +159,6 @@ public class BoardPresent
         if (!CanInput) return;
         int r = tileFoodView.GetRow;
         int c = tileFoodView.GetCol;
-
-        // if (isTutorialBooster) OnCloseInGameBoosterTutorial?.Invoke();
         OnFoodClickedForBooster?.Invoke(r, c);
     }
     private void HandleMove(int remainCount)

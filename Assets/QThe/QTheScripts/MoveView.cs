@@ -14,7 +14,7 @@ public class MoveView : MonoBehaviour
     {
         if (remain < 0) return;
         if (remain == 5) StartCoroutine(ShowNotification());
-        moveTxt.color = remain > 5 ? moveTxt.color = new Color32(154, 78, 37, 255) : moveTxt.color = Color.red;
+        moveTxt.color = remain > 5 ? moveTxt.color = new Color32(85, 167, 243, 255) : moveTxt.color = Color.red;
 
         moveTxt.text = remain.ToString();
     }

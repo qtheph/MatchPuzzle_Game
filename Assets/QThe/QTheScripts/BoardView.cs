@@ -157,10 +157,16 @@ public class BoardView : MonoBehaviour
 
     private void CleanData()
     {
+        foreach (Transform child in bigCellParent)
+        {
+            Destroy(child.gameObject);
+        }
+
         foreach (Transform child in cellParent)
         {
             Destroy(child.gameObject);
         }
+
         foreach (Transform child in foodParent)
         {
             Destroy(child.gameObject);

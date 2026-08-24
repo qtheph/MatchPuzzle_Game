@@ -37,7 +37,7 @@ public class TutorialView : MonoBehaviour
 
         if (targetData == null)
         {
-            // Bỏ qua nếu không tìm thấy dữ liệu và xử lý cái tiếp theo
+            // Skip if not found and go to next tutorial
             GoNextTutorial();
             return;
         }

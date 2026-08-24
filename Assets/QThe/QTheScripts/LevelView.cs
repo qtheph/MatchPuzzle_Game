@@ -70,7 +70,7 @@ public class LevelView : MonoBehaviour
         OnClickClosePlayTargetBoard?.Invoke();
     }
 
-    public float GetButtonPos(RectTransform levelButton)
+    public float GetButtonPosY(RectTransform levelButton)
     {
         Vector3 btnPos = scrollBackground.InverseTransformPoint(levelButton.position);
         float targetY = -btnPos.y;
