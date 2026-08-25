@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4ef3b2a3e27c8545a08fc893c828284, type: 3}
-  m_Name: 1
+  m_Name: SoftBlue
   m_EditorClassIdentifier: 
-  id: 1
-  sprite: {fileID: -136866182, guid: fcba0b13a4cba1742a5092a381602dd4, type: 3}
-  prefab: {fileID: 1530132066599867587, guid: 3f6ad09240866254fa2a06f77b5850b0, type: 3}
+  id: 5
+  sprite: {fileID: -1669376810, guid: a8bbfb87f47d8ef448394825c6bf863d, type: 3}
+  prefab: {fileID: 852725681665469795, guid: 020e9467efe77454eb1992233a797a6d, type: 3}

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4ef3b2a3e27c8545a08fc893c828284, type: 3}
-  m_Name: 6
+  m_Name: PinkWhite
   m_EditorClassIdentifier: 
-  id: 6
-  sprite: {fileID: -193123422, guid: fcba0b13a4cba1742a5092a381602dd4, type: 3}
-  prefab: {fileID: 5798614633274683586, guid: 7fe71a696ff7c99468a942de1b0d855c, type: 3}
+  id: 11
+  sprite: {fileID: -1290509651, guid: a8bbfb87f47d8ef448394825c6bf863d, type: 3}
+  prefab: {fileID: 1783851282261821010, guid: 9cb92503a50d21c40b2f791c342bba33, type: 3}

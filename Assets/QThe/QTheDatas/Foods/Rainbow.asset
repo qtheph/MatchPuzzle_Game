@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4ef3b2a3e27c8545a08fc893c828284, type: 3}
-  m_Name: 10
+  m_Name: Rainbow
   m_EditorClassIdentifier: 
-  id: 10
-  sprite: {fileID: -28401712, guid: fcba0b13a4cba1742a5092a381602dd4, type: 3}
-  prefab: {fileID: 5359888406744206429, guid: 4f52a364f5cb87c41bf6d71ce811f58d, type: 3}
+  id: 18
+  sprite: {fileID: 686031636, guid: a8bbfb87f47d8ef448394825c6bf863d, type: 3}
+  prefab: {fileID: 4777100981240611931, guid: 3cbe3dc5757e93440ad8cfa67789595b, type: 3}

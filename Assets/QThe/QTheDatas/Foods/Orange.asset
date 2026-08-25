@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4ef3b2a3e27c8545a08fc893c828284, type: 3}
-  m_Name: 14
+  m_Name: Orange
   m_EditorClassIdentifier: 
-  id: 14
-  sprite: {fileID: -328468100, guid: fcba0b13a4cba1742a5092a381602dd4, type: 3}
-  prefab: {fileID: 4953822639503707556, guid: a903e0b5d0268eb499bcfc2e33b7799c, type: 3}
+  id: 1
+  sprite: {fileID: 1550036901, guid: a8bbfb87f47d8ef448394825c6bf863d, type: 3}
+  prefab: {fileID: 1530132066599867587, guid: 3f6ad09240866254fa2a06f77b5850b0, type: 3}

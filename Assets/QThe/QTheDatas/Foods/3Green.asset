@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4ef3b2a3e27c8545a08fc893c828284, type: 3}
-  m_Name: 0
+  m_Name: 3Green
   m_EditorClassIdentifier: 
   id: 0
-  sprite: {fileID: 1552903404, guid: fcba0b13a4cba1742a5092a381602dd4, type: 3}
+  sprite: {fileID: -611815255, guid: a8bbfb87f47d8ef448394825c6bf863d, type: 3}
   prefab: {fileID: 1242915162176060066, guid: 656f97d8eb75fe54289e2e067052af16, type: 3}

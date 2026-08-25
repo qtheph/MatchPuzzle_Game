@@ -63,7 +63,7 @@ public class BoardView : MonoBehaviour
         {
             foreach (var pos in hintPos)
             {
-                tileFoodViews[pos.x, pos.y].transform.DOScale(1.5f, 0.5f)
+                tileFoodViews[pos.x, pos.y].transform.DOScale(1.25f, 0.5f)
                 .SetLoops(-1, loopType: LoopType.Yoyo);
             }
         }

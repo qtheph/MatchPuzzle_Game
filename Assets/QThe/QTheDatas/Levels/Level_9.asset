@@ -19,21 +19,25 @@ MonoBehaviour:
   spacing: 1
   bigCellOffset: 1
   allowedFoods:
-  - {fileID: 11400000, guid: 2e4a2d990d3febf4fbbe97e36adf28fb, type: 2}
-  - {fileID: 11400000, guid: 4ba55e5b3b11b1d4b914c29701a78e3c, type: 2}
-  - {fileID: 11400000, guid: 4650640e091b868478d3fc3101b04e7d, type: 2}
-  - {fileID: 11400000, guid: 21a1555e9b325e54aaa0879910a62579, type: 2}
-  - {fileID: 11400000, guid: c76c1d47938b19349aab02f1acdf38c1, type: 2}
   - {fileID: 11400000, guid: c0e26357bebd95744ade77b54f5362e0, type: 2}
+  - {fileID: 11400000, guid: 8525b963cef39c54ab308978926dc053, type: 2}
+  - {fileID: 11400000, guid: b1703147b4aa13046a15461874599418, type: 2}
+  - {fileID: 11400000, guid: 3de00d74a286bfe4095d33ebdf7015c0, type: 2}
+  - {fileID: 11400000, guid: f7d19739704c6f741ab8ae7d8ed33c44, type: 2}
+  - {fileID: 11400000, guid: 4650640e091b868478d3fc3101b04e7d, type: 2}
+  - {fileID: 11400000, guid: c76c1d47938b19349aab02f1acdf38c1, type: 2}
+  - {fileID: 11400000, guid: b960547e8145c0b43a3bfdbef79856fd, type: 2}
   targets:
-  - food: {fileID: 11400000, guid: 2e4a2d990d3febf4fbbe97e36adf28fb, type: 2}
-    count: 22
-  - food: {fileID: 11400000, guid: 4ba55e5b3b11b1d4b914c29701a78e3c, type: 2}
-    count: 22
+  - food: {fileID: 11400000, guid: b1703147b4aa13046a15461874599418, type: 2}
+    count: 20
+  - food: {fileID: 11400000, guid: f7d19739704c6f741ab8ae7d8ed33c44, type: 2}
+    count: 18
+  - food: {fileID: 11400000, guid: b960547e8145c0b43a3bfdbef79856fd, type: 2}
+    count: 16
   cellPrefab: {fileID: 8346520552906374300, guid: 1ac4ad0da7d80ff4689d29a416737feb, type: 3}
   bigCell: {fileID: 8346520552906374300, guid: a6bd2ff2bafdd3c458b0ecf4d64c5486, type: 3}
-  moveCount: 14
-  coinAmountReward: 300
+  moveCount: 25
+  coinAmountReward: 250
   boosterTypeReward: 3
   boosterAmountReward: 1
-  enviromentType: 3
+  enviromentType: 2

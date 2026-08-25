@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4ef3b2a3e27c8545a08fc893c828284, type: 3}
-  m_Name: 9
+  m_Name: CandyPink
   m_EditorClassIdentifier: 
-  id: 9
-  sprite: {fileID: -1929438732, guid: fcba0b13a4cba1742a5092a381602dd4, type: 3}
-  prefab: {fileID: 8127705089381194737, guid: 66168f5ed2503114099afe2253430362, type: 3}
+  id: 14
+  sprite: {fileID: -1798614362, guid: a8bbfb87f47d8ef448394825c6bf863d, type: 3}
+  prefab: {fileID: 4953822639503707556, guid: a903e0b5d0268eb499bcfc2e33b7799c, type: 3}

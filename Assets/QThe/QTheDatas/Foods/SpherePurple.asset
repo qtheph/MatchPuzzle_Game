@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4ef3b2a3e27c8545a08fc893c828284, type: 3}
-  m_Name: 5
+  m_Name: SpherePurple
   m_EditorClassIdentifier: 
-  id: 5
-  sprite: {fileID: -1542057216, guid: fcba0b13a4cba1742a5092a381602dd4, type: 3}
-  prefab: {fileID: 852725681665469795, guid: 020e9467efe77454eb1992233a797a6d, type: 3}
+  id: 10
+  sprite: {fileID: 721806400, guid: a8bbfb87f47d8ef448394825c6bf863d, type: 3}
+  prefab: {fileID: 5359888406744206429, guid: 4f52a364f5cb87c41bf6d71ce811f58d, type: 3}
