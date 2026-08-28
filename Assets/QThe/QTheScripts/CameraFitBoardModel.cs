@@ -38,7 +38,7 @@ public class CameraFitBoardModel
 
         float zoomFactor = Mathf.Lerp(
               minZoom,
-                1.3f,
+                1f,
              Mathf.InverseLerp(8f, 5f, boardSize)
          );
         return targetOrtho * zoomFactor;

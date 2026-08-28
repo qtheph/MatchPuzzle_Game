@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class LevelView : MonoBehaviour
 {
+    public event Action OnBackBtnClicked;
     public event Action<int> OnPlayBtnClicked;
     public event Action<int> OnPlayBoardTargetShow;
     public event Action OnClickClosePlayTargetBoard;
@@ -16,10 +17,12 @@ public class LevelView : MonoBehaviour
     [SerializeField] private GameObject playBoard;
     [SerializeField] private Button closeBtn;
     [SerializeField] private Button playBtn;
+    [SerializeField] private Button backBtn;
     [SerializeField] private RectTransform parent;
     [SerializeField] TextMeshProUGUI moveTxt;
     [SerializeField] private GameObject mapUI;
     [SerializeField] private GameObject inGameUI;
+    [SerializeField] private AudioClip mapMusic;
 
     private int selectedLevelIndex = -1;
     public List<ButtonLevel> GetButtonLevelList => buttonLevelList;
@@ -27,6 +30,7 @@ public class LevelView : MonoBehaviour
     public RectTransform GetParent => parent;
     public TextMeshProUGUI GetMoveTxt => moveTxt;
     public GameObject GetMapUI => mapUI;
+    public AudioClip GetMapMusic => mapMusic;
 
     public void ShowPlayBoard(bool isActive) => playBoard.SetActive(isActive);
     public void MapUIShow(bool isActive) => mapUI.SetActive(isActive);
@@ -43,7 +47,10 @@ public class LevelView : MonoBehaviour
 
         closeBtn.onClick.AddListener(() => OnClickClose());
         playBtn.onClick.AddListener(() => OnClickPlay());
+        backBtn.onClick.AddListener(() => OnClickBack());
     }
+
+
     private void SignEvent()
     {
         for (int i = 0; i < buttonLevelList.Count; i++)
@@ -68,6 +75,10 @@ public class LevelView : MonoBehaviour
     private void OnClickClose()
     {
         OnClickClosePlayTargetBoard?.Invoke();
+    }
+    private void OnClickBack()
+    {
+        OnBackBtnClicked?.Invoke();
     }
 
     public float GetButtonPosY(RectTransform levelButton)

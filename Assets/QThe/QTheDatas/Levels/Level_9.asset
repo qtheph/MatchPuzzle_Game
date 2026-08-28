@@ -40,4 +40,5 @@ MonoBehaviour:
   coinAmountReward: 250
   boosterTypeReward: 3
   boosterAmountReward: 1
-  enviromentType: 2
+  enviromentType: 3
+  audioClip: {fileID: 8300000, guid: 4c31dec6b29e0234ebb5317040431f8c, type: 3}

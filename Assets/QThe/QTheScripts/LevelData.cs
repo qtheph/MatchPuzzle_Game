@@ -35,4 +35,5 @@ public class LevelData : ScriptableObject
     public BoosterType boosterTypeReward;
     public int boosterAmountReward;
     public EnviromentType enviromentType;
+    public AudioClip audioClip;
 }

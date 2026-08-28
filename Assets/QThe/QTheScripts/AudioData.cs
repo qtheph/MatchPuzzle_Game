@@ -12,7 +12,8 @@ public enum SFX
     Rocket,
     Sprinkle,
     Swipe,
-    Undo
+    Undo,
+    Click
 }
 [System.Serializable]
 public class AudioData

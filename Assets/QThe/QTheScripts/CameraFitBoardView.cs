@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraFitBoardView : MonoBehaviour
 {
-    [SerializeField] private float offSet;
+    [SerializeField] private float minZoom;
     [SerializeField] private Camera mainCam;
-    public float Offset => offSet;
+    public float MinZoom => minZoom;
     public void SetCamera(float targetOrtho)
     {
         if (mainCam != null)

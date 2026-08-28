@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class GameBootstrap : MonoBehaviour, ICoroutineRunner
 {
     // Start is called before the first frame update
+    [SerializeField] private bool devMode;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private BoardView boardView;
     [SerializeField] private InputManager inputManager;
@@ -46,6 +47,9 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
     [SerializeField] private WinPanelView winPanelView;
     [SerializeField] private LosePanelView losePanelView;
 
+    [Header("Perform Board")]
+    [SerializeField] private PerformView performView;
+
     [Header("Bucket")]
     [SerializeField] private BucketManagerView bucketManager;
     [SerializeField] private int priceBuyChance;
@@ -66,10 +70,6 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
     private ItemBoosterData itemBoosterData;
     private ItemBoosterPresent itemBoosterPresent;
     private int levelIndex;
-
-    [Header("Cloud")]
-    [SerializeField] private List<CloudView> cloudViewList;
-    private List<CloudPresent> cloudPresentList = new List<CloudPresent>();
 
     void Awake()
     {
@@ -105,14 +105,17 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
         itemBoosterPresent.OnApplyBoosterEffect += HandleApplyBoosterEffect;
         itemBoosterPresent.OnBoosterAnimationComplete += HandleBoosterAnimationComplete;
 
-        levelPresent = new LevelPresent(levelDataList, levelView, targetGroupView, moveView, winPanelView, losePanelView, bucketManager, audioView, settingView, storage);
+        levelPresent = new LevelPresent(levelDataList, levelView, targetGroupView, moveView, winPanelView, losePanelView, performView, bucketManager, audioView, storage);
         levelPresent.Init();
         levelPresent.OnGenerateLevel += HandleGenerateLevel;
         levelPresent.OnSkipOrContinueLevel += HandleShowLoadingInGameScreen;
 
         audioView.Init();
 
-        InitCloud();
+        if (devMode)
+        {
+            levelPresent.DevMode();
+        }
     }
 
     private void HandleGenerateLevel(LevelData levelData)
@@ -121,7 +124,7 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
 
         loadingScreenPresent.HandleLoadingInGame(() =>
         {
-            audioView.PlayMusic(BgMusic.Ingame);
+            audioView.PlayMusic(levelData.audioClip);
         });
 
         BoardModel boardModel = new BoardModel(levelData, levelData.row, levelData.col);
@@ -303,13 +306,13 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
         loadingScreenPresent.HandleLoadingInGame(() =>
         {
             googleAdmobPresenter.HandleShowInterstitial();
-            audioView.PlayMusic(BgMusic.Map);
+            audioView.PlayMusic(levelView.GetMapMusic);
         });
     }
 
     private void HandleLoadingStartScreenCompleted()
     {
-        audioView.PlayMusic(BgMusic.Map);
+        audioView.PlayMusic(levelView.GetMapMusic);
         googleAdmobPresenter.HandleShowInterstitial();
         tutorialPresent.HandleTutorial(TutorialType.MapLevel1Btn);
         tutorialPresent.HandleTutorial(TutorialType.PlayTargetBoardLevel1Btn);
@@ -343,25 +346,8 @@ public class GameBootstrap : MonoBehaviour, ICoroutineRunner
         StopAllCoroutines();
     }
 
-    private void InitCloud()
-    {
-        cloudPresentList.Clear();
-        foreach (var cloudView in cloudViewList)
-        {
-            if (cloudView == null) continue;
-            cloudPresentList.Add(new CloudPresent(cloudView));
-        }
-    }
-
-
     void Update()
     {
         inputManager.HandleInput();
-
-        foreach (var cloudPrensent in cloudPresentList)
-        {
-            if (cloudPrensent == null) continue;
-            cloudPrensent.OnUpdate();
-        }
     }
 }

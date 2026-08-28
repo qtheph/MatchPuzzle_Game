@@ -39,3 +39,4 @@ MonoBehaviour:
   boosterTypeReward: 1
   boosterAmountReward: 2
   enviromentType: 1
+  audioClip: {fileID: 8300000, guid: fb9e9a8ea119be742b2ea9993c54e98b, type: 3}

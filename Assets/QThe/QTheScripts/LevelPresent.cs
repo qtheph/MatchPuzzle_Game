@@ -10,20 +10,18 @@ public class LevelPresent
     public event Action OnSkipOrContinueLevel;
     public event Action<LevelData> OnGenerateLevel;
     private readonly List<LevelData> levelDataList;
-
-
     private readonly LevelModel levelModel;
     private readonly LevelView levelView;
     private readonly TargetGroupView targetGroupView;
     private readonly MoveView moveView;
     private readonly WinPanelView winPanelView;
     private readonly LosePanelView losePanelView;
+    private readonly PerformView performView;
     private readonly BucketManagerView bucketManagerView;
     private readonly AudioView audioView;
-    private readonly SettingView settingView;
     private readonly IGameStorage storage;
     private bool isTutorialMode = false;
-
+    private List<ButtonLevel> btnLevelList;
 
     public LevelPresent(List<LevelData> levelDataList,
        LevelView levelView,
@@ -31,9 +29,9 @@ public class LevelPresent
        MoveView moveView,
        WinPanelView winPanelView,
        LosePanelView losePanelView,
+       PerformView performView,
        BucketManagerView bucketManagerView,
        AudioView audioView,
-        SettingView settingView,
 
     IGameStorage storage)
     {
@@ -43,14 +41,26 @@ public class LevelPresent
         this.moveView = moveView;
         this.winPanelView = winPanelView;
         this.losePanelView = losePanelView;
+        this.performView = performView;
         this.bucketManagerView = bucketManagerView;
         this.audioView = audioView;
-        this.settingView = settingView;
 
         this.storage = storage;
         levelModel = new LevelModel(storage);
-    }
 
+        btnLevelList = levelView.GetButtonLevelList;
+    }
+    public void DevMode()
+    {
+        for (int i = 0; i < btnLevelList.Count; i++)
+        {
+            if (i < levelDataList.Count)
+            {
+                levelModel.SetPrefLevelState(i, LevelState.Unlocked);
+            }
+        }
+        UpdateLevelButtonsState();
+    }
     public void Init()
     {
         if (!storage.HasKey("FirstGameInit"))
@@ -75,6 +85,10 @@ public class LevelPresent
         levelView.OnPlayBoardTargetShow += ShowPlayBoardTarget;
         levelView.OnPlayBtnClicked += TakeLevelData;
         levelView.OnClickClosePlayTargetBoard += ClosePlayTargetBoard;
+
+        levelView.OnBackBtnClicked += ShowPerformBoard;
+        performView.OnNoBtnClicked += HandleNotSkip;
+        performView.OnYesBtnClicked += HandleSkipGame;
     }
 
     private void SetScrollBackgroundPosition(float targetY)
@@ -93,7 +107,6 @@ public class LevelPresent
         List<ButtonLevel> btnLevelList = levelView.GetButtonLevelList;
         for (int i = 0; i < btnLevelList.Count; i++)
         {
-
             if (i < levelDataList.Count)
             {
                 levelDataList[i].levelIndex = i;
@@ -104,17 +117,12 @@ public class LevelPresent
 
     public void UpdateLevelButtonsState()
     {
-        List<ButtonLevel> btnLevelList = levelView.GetButtonLevelList;
         for (int i = 0; i < btnLevelList.Count; i++)
         {
             if (i < levelDataList.Count)
             {
                 LevelState levelState = levelModel.GetPrefLevelState(i);
                 btnLevelList[i].UpdateUI(levelState);
-            }
-            else
-            {
-                btnLevelList[i].UpdateUI(LevelState.Locked);
             }
         }
     }
@@ -140,7 +148,7 @@ public class LevelPresent
     {
         if (index < 0 || index >= levelDataList.Count) return;
         LevelData levelData = levelDataList[index];
-        audioView.StopMusic(BgMusic.Map);
+        audioView.StopMusic();
         levelView.ShowPlayBoard(false);
         OnGenerateLevel?.Invoke(levelData);
     }
@@ -153,6 +161,7 @@ public class LevelPresent
             targetGroupView.InitTargetItem(levelData.targets, levelView.GetParent);
             moveView.Init(levelView.GetMoveTxt, levelData);
             levelView.ShowPlayBoard(true);
+            audioView.PlaySFX(SFX.Click);
         }
     }
 
@@ -160,6 +169,7 @@ public class LevelPresent
     {
         if (isTutorialMode) return;
         levelView.ShowPlayBoard(false);
+        audioView.PlaySFX(SFX.Click);
     }
 
     public void SetTutorialMode(bool isTutorialMode)
@@ -183,6 +193,22 @@ public class LevelPresent
     {
         winPanelView.WinPanelShow(false);
         bucketManagerView.UpdateCoinUI(bucketManagerView.GetBucket());
+        levelView.MapUIShow(true);
+        OnSkipOrContinueLevel?.Invoke();
+    }
+
+    private void ShowPerformBoard()
+    {
+        performView.ShowPerformBoard(true);
+    }
+
+    private void HandleNotSkip()
+    {
+        performView.ShowPerformBoard(false);
+    }
+    private void HandleSkipGame()
+    {
+        performView.ShowPerformBoard(false);
         levelView.MapUIShow(true);
         OnSkipOrContinueLevel?.Invoke();
     }

@@ -31,22 +31,26 @@ public class SettingPresent
         settingView.MusicToggle(settingModel.IsMusicOn);
         audioView.MuteMusic(settingModel.IsMusicOn);
         settingModel.ToogleMusic();
+        audioView.PlaySFX(SFX.Click);
     }
     private void HandleSoundToggle()
     {
         settingView.SoundToggle(settingModel.IsSoundOn);
         audioView.MuteSound(settingModel.IsSoundOn);
         settingModel.ToogleSound();
+        audioView.PlaySFX(SFX.Click);
     }
     private void ClosePanelSetting()
     {
         settingView.ShowPanelSetting(false);
+        audioView.PlaySFX(SFX.Click);
     }
     private void OpenPanelSetting()
     {
         if (isTutorialMode) return;
         settingView.ShowPanelSetting(true);
         levelView.ShowPlayBoard(false);
+        audioView.PlaySFX(SFX.Click);
     }
     public void SetTutorialMode(bool isTutorialMode)
     {

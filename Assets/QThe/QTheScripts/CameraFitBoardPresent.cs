@@ -13,7 +13,7 @@ public class CameraFitBoardPresent
     }
     public void HandleOrtho()
     {
-        float offset = cameraFitBoardView.Offset;
-        cameraFitBoardView.SetCamera(cameraFitBoardModel.TargetOrtho(offset));
+        float minZoom = cameraFitBoardView.MinZoom;
+        cameraFitBoardView.SetCamera(cameraFitBoardModel.TargetOrtho(minZoom));
     }
 }

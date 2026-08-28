@@ -232,7 +232,7 @@ public class BoardPresent
 
         ResetCoolDownHint();
 
-        audioView.PlayMusic(BgMusic.Ingame);
+        audioView.PlayMusic(boardModel.GetLevelData.audioClip);
         gameState.ChangeState(GameState.Play);
     }
     public void BuyChanceAds()
@@ -246,7 +246,7 @@ public class BoardPresent
 
             ResetCoolDownHint();
 
-            audioView.PlayMusic(BgMusic.Ingame);
+            audioView.PlayMusic(boardModel.GetLevelData.audioClip);
             gameState.ChangeState(GameState.Play);
         });
     }
@@ -393,7 +393,7 @@ public class BoardPresent
         winPanelView.UpdateItem_Txt_Img(boardModel.GetLevelData.boosterTypeReward, boardModel.GetLevelData.boosterAmountReward);
         winPanelView.WinPanelShow(true);
 
-        audioView.StopMusic(BgMusic.Ingame);
+        audioView.StopMusic();
         audioView.PlaySFX(SFX.Win);
 
         yield return new WaitForSeconds(1.25f);
@@ -411,7 +411,7 @@ public class BoardPresent
         losePanelView.UpdateLoseTxt();
         losePanelView.LosePanelShow(true);
 
-        audioView.StopMusic(BgMusic.Ingame);
+        audioView.StopMusic();
         audioView.PlaySFX(SFX.Lose);
 
         yield return new WaitForSeconds(1.25f);
